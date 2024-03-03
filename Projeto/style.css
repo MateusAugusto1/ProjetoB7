@@ -3,21 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1{
+
+.cabecalho{
     padding: 10px;
-    font-size: 50px;
     display: flex;
-    justify-content: center;
-    margin-bottom: 0;
-}
-H2{
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    
 }
-img{
-    text-align: center;
-    display: block;
+
+#title{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width:100%;
+    height:auto;
 }
