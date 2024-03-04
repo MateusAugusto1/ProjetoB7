@@ -2,6 +2,7 @@
     padding: 7px;
     margin: 15px;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
 }
 
 .cabecalho{
@@ -27,21 +28,77 @@ div{
     max-width:100%;
     height:auto;
 }
-.text-font{
-    margin: 10px;
-    padding: 5px;
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2300px;
+    margin: 0 auto;
+}
+
+.container > div{
+    flex: 1 1 450px;
 
 }
-h3{
-    margin: 20px;
-    font-size: 25px;
-    font-family: fantasy;
-    outline: 0.6px;
-}
-.one{
-    background-image: url(i639136.jpeg);
-    background-repeat: no-repeat;
-    background: cover;
-    background-position: center;
 
+.banner1{
+    background-color: rebeccapurple;
+    width: 500px;
+    height: 450px;
+}
+.banner2{
+    width: 500px;
+    height: 450px;
+    background-color: darkblue;
+}
+.banner3{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(223, 181, 68);
+}
+.banner4{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(99, 202, 39);
+}
+
+.banner5{
+    line-height: 13px;
+    width: 600px;
+    height: 530px;
+    background-color: rgb(202, 90, 109);
+}
+.banner6{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(202, 191, 90);
+}
+.banner7{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(90, 142, 202);
+}
+.banner8{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+}
+.banner9{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(111, 90, 202);
+}
+.banner10{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(204, 35, 190);
+}
+.banner11{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(94, 255, 0);
+}
+.banner12{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(26, 20, 54);
 }
