@@ -2,9 +2,13 @@
     padding: 7px;
     margin: 15px;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
-}
+    font-family:cursive;
 
+}
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+}
 .cabecalho{
     padding: 10px;
     display: flex;
@@ -15,10 +19,15 @@
 }
 
 #title{
-    font-size: 50px;
+    font-size: 100px;
     font-family: sans-serif;
     font-weight: bolder;
     
+}
+h2{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
 div{
     display: flex;
@@ -27,6 +36,7 @@ div{
     flex-direction: column;
     max-width:100%;
     height:auto;
+
 }
 .container{
     display: flex;
@@ -40,65 +50,115 @@ div{
 
 }
 
-.banner1{
-    background-color: rebeccapurple;
-    width: 500px;
-    height: 450px;
-}
-.banner2{
-    width: 500px;
-    height: 450px;
-    background-color: darkblue;
-}
-.banner3{
-    width: 500px;
-    height: 500px;
-    background-color: rgb(223, 181, 68);
-}
-.banner4{
-    width: 500px;
-    height: 500px;
-    background-color: rgb(99, 202, 39);
+.two{
+    width: 1000px;
+    height: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    
 }
 
-.banner5{
-    line-height: 13px;
-    width: 600px;
-    height: 530px;
-    background-color: rgb(202, 90, 109);
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 14px;
 }
-.banner6{
-    width: 600px;
-    height: 500px;
-    background-color: rgb(202, 191, 90);
+
+
+.banner1, 
+.banner2,.banner3, .banner4, .banner5, .banner6,.banner7,.banner8,.banner9,.banner10,.banner11,.banner12{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background-color: rgba(255, 249, 249, 0.534);
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    padding:28px;
+    transition: 4s;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-.banner7{
-    width: 600px;
-    height: 500px;
-    background-color: rgb(90, 142, 202);
+
+.two:hover .banner1{
+    right: 0;
 }
-.banner8{
-    width: 600px;
-    height: 500px;
-    background-color: rgb(255, 0, 0);
+h3{ 
+    text-transform:uppercase;
+    font-size: 25px;
 }
-.banner9{
-    width: 600px;
-    height: 500px;
-    background-color: rgb(111, 90, 202);
+h3:hover{
+    font-size: 30px;
 }
-.banner10{
-    width: 600px;
-    height: 500px;
-    background-color: rgb(204, 35, 190);
+
+p{
+    font-size: 16px;
+
 }
-.banner11{
-    width: 600px;
-    height: 500px;
-    background-color: rgb(94, 255, 0);
+
+.btn{
+    color: rgb(29, 24, 24);
+    background-color: rgba(240, 248, 255, 0.363);
+    margin-bottom: 50px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
 }
-.banner12{
-    width: 600px;
-    height: 500px;
-    background-color: rgb(26, 20, 54);
+
+.two:hover .banner2{
+    right: 0;
 }
+
+.two:hover .banner3{
+    right: 0;
+}
+
+.two:hover .banner4{
+    right: 0;
+}
+
+.two:hover .banner5{
+    right: 0;
+    
+}
+
+.two:hover .banner6{
+    right: 0;
+}
+
+.two:hover .banner7{
+    right: 0;
+}
+
+.two:hover .banner8{
+    right: 0;
+}
+.two:hover .banner9{
+    right: 0;
+}
+
+.two:hover .banner10{
+    right: 0;
+}
+
+.two:hover .banner11{
+    right: 0;
+}
+
+.two:hover .banner12{
+    right: 0;
+}
+
+
+
+
+
