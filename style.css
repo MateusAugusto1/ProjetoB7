@@ -6,8 +6,7 @@
 
 }
 body{
-    background-image: url();
-    background-repeat: no-repeat;
+    background-color: rgba(34, 96, 178, 0.288);
 }
 .cabecalho{
     padding: 10px;
@@ -85,6 +84,8 @@ img{
     justify-content: center;
     flex-direction: column;
 }
+
+
 
 .two:hover .banner1{
     right: 0;
