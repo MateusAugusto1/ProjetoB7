@@ -6,7 +6,7 @@
 
 }
 body{
-    background-color: rgba(34, 96, 178, 0.288);
+    background-color: rgba(1, 91, 209, 0.288);
 }
 .cabecalho{
     padding: 10px;
@@ -37,6 +37,8 @@ div{
     height:auto;
 
 }
+
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -45,7 +47,7 @@ div{
 }
 
 .container > div{
-    flex: 1 1 450px;
+    flex: 1 1 550px;
 
 }
 
@@ -62,7 +64,7 @@ img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 14px;
+    border-radius: 16px;
 }
 
 
@@ -71,24 +73,26 @@ img{
     width: 100%;
     height: 100%;
     top: 0;
-    right: -100%;
+    right: 100%;
     position: absolute;
     background-color: rgba(255, 249, 249, 0.534);
-    backdrop-filter: blur(4px);
-    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
     color: rgb(0, 0, 0);
-    padding:28px;
+    padding:88px;
     transition: 4s;
     font-weight: bolder;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 
 
-.two:hover .banner1{
+.two:hover .banner1 {
     right: 0;
+    
 }
 h3{ 
     text-transform:uppercase;
@@ -105,7 +109,7 @@ p{
 
 .btn{
     color: rgb(29, 24, 24);
-    background-color: rgba(240, 248, 255, 0.363);
+    background-color: rgba(240, 248, 255, 0.219);
     margin-bottom: 50px;
     border-radius: 4px;
     text-transform: capitalize;
@@ -157,6 +161,16 @@ p{
 
 .two:hover .banner12{
     right: 0;
+}
+
+.banner1, 
+.banner2,.banner3, .banner4, .banner5, .banner6,.banner7,.banner8,.banner9,.banner10,.banner11,.banner12{
+    opacity: 0;
+}
+
+.two:hover .banner1, 
+.banner2,.banner3, .banner4, .banner5, .banner6,.banner7,.banner8,.banner9,.banner10,.banner11,.banner12{
+    opacity: 1;
 }
 
 
