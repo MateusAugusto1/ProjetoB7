@@ -1,13 +1,15 @@
 *{
     padding: 7px;
-    margin: 15px;
+
     box-sizing: border-box;
     font-family:cursive;
 
 }
+
 body{
     background-color: rgba(1, 91, 209, 0.288);
 }
+
 .cabecalho{
     padding: 10px;
     display: flex;
@@ -17,12 +19,28 @@ body{
     
 }
 
+#photo-easy{
+    
+}
+
 #title{
     font-size: 100px;
     font-family: sans-serif;
     font-weight: bolder;
     
 }
+.Topics-Menu li {
+    list-style-type: none;
+
+} 
+.Topics-Menu li a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
 h2{
     font-size: 60px;
     font-family: sans-serif;
