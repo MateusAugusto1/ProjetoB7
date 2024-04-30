@@ -41,7 +41,7 @@ body{
 .Topics-Menu li a{
     text-decoration: none;
     margin-left: 100px;
-    color: black;
+    color: rgba(0, 0, 0, 0.842);
     font-size: 20px;
 }
 
@@ -130,7 +130,7 @@ p{
 }
 
 .btn{
-    color: rgb(29, 24, 24);
+    color: rgb(59, 44, 44);
     background-color: rgba(240, 248, 255, 0.219);
     margin-bottom: 50px;
     border-radius: 4px;
